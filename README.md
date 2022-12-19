@@ -1,3 +1,5 @@
 # Projectes-Front-End-ReactJs
 
-Projectes autoaprenentatge Front-end en ReactJS 
+Exercicis de Programació en ReactJS
+
+Vista projectes:

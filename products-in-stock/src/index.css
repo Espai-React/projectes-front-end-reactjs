@@ -1,0 +1,14 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: rgb(122, 101, 93);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

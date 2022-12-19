@@ -1,0 +1,16 @@
+{
+  "arrayBlogs": [
+    {
+      "title": "El meu primer blog",
+      "body": "Si va en un arxiu separat, acaba en .js i es posa a la carpeta js (a més de la img i la css). Dins de l’arxiu extern no hi ha etiquetes <script> </script>. Per utilitzar un arxiu extern, s’ha d’indicar a HTML així: es posa a dins del head, el nom de l’arxiu .js a l’atribut source (src) de l’etiqueta <script>. En realitat script src pot referir-se a: una URL (adreça web), un camí a una carpeta separada dins d’HTML, o un arxiu dins de la carpeta",
+      "author": "Mario",
+      "id": 1
+    },
+    {
+      "title": "Festa de benvinguda",
+      "body": "Es pot escriure en un arxiu separat (que s’ha d’indicar dins del codi HTML), o es pot inserir a la capçalera (<head>) o al cos (<body>). Es recomana fer-ho just abans del tancament del cos (</body>) perquè és més eficient per la càrrega de la pàgina. Si s’ubica al head, s’executarà js abans de la càrrega de la pàgina",
+      "author": "Yoshi",
+      "id": 2
+    }
+  ]
+}

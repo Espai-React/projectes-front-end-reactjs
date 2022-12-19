@@ -8,6 +8,8 @@ import RootLayout from "./layouts/RootLayout";
 import HelpLayout from "./layouts/HelpLayout";
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
+import Faq from "./pages/Help/Faq";
+import Contact from "./pages/Help/Contact";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -15,8 +17,8 @@ const router = createBrowserRouter(
       <Route index element={<Home />} />
       <Route path="about" element={<About />} />
       <Route path="help" element={<HelpLayout />}>
-        <Route path="faq" />
-        <Route path="contact" />
+        <Route path="faq" element={<Faq />} />
+        <Route path="contact" element={<Contact />} />
       </Route>
     </Route>
   )

@@ -33,7 +33,7 @@ button {
 /* navbar */
 header nav {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   gap: 16px;
   max-width: 1200px;
   margin: 0 auto;

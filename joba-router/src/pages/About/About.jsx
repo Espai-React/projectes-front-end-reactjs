@@ -1,5 +1,5 @@
 const About = () => (
-  <div className="about">
+  <section className="about">
     <h2>About Us</h2>
     <p>
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus quos
@@ -25,7 +25,7 @@ const About = () => (
       Quam accusantium officiis inventore blanditiis quidem, minus aspernatur
       eaque.
     </p>
-  </div>
+  </section>
 );
 
 export default About;

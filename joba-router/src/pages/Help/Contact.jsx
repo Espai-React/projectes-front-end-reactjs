@@ -1,5 +1,5 @@
 const Contact = () => (
-  <div className="contact">
+  <section className="contact">
     <h3>Contact Us </h3>
     <form>
       <label>
@@ -12,7 +12,7 @@ const Contact = () => (
       </label>
       <button>Submit</button>
     </form>
-  </div>
+  </section>
 );
 
 export default Contact;

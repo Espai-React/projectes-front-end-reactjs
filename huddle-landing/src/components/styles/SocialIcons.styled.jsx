@@ -22,4 +22,9 @@ export const StyledSocialIcons = styled.div`
     height: 40px;
     width: 40px;
   }
+
+  @media (max-width: ${({ theme }) => theme.mobile}) {
+    align-self: initial;
+    margin-bottom: 10px;
+  }
 `;

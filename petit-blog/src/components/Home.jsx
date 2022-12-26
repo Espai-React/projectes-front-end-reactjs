@@ -7,7 +7,7 @@ const Home = () => {
   const { dades: blogs, carregant, error } = peticio;
 
   return (
-    <div classNameName="home">
+    <div className="home">
       {error && <div>{error}</div>}
       {carregant && <p>Carregant dades...</p>}
       {blogs && <BlogList blogs={blogs} blogListTitle="Tots els Blogs!" />}

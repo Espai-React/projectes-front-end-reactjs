@@ -20,12 +20,12 @@ export const StyledFooter = styled.footer`
     margin-bottom: 10px;
   }
 
-  p {
-    text-align: right;
-  }
-
   @media (max-width: ${({ theme }) => theme.mobile}) {
     text-align: center;
+
+    img {
+      margin-bottom: 20px;
+    }
 
     ul {
       padding: 0;

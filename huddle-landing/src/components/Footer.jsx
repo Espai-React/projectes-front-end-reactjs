@@ -7,7 +7,7 @@ const Footer = () => (
   <StyledFooter>
     <Container>
       <img src="./images/logo_white.svg" alt="white logo" />
-      <Flex alignItems="start" gap="10px">
+      <Flex gap="20px">
         <ul>
           <li>Gran Via, 2337, 08022 - BARCELONA</li>
           <li>+34 123 45 67 </li>

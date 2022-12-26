@@ -8,9 +8,9 @@ import NoTrobat from "./components/NoTrobat";
 function App() {
   return (
     <BrowserRouter>
-      <div classNameName="App">
+      <div className="App">
         <NavBar />
-        <div classNameName="content">
+        <div className="content">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="nouBlog" element={<NouBlog />} />

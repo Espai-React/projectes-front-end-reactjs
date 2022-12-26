@@ -28,7 +28,7 @@ const BlogDetails = () => {
   };
 
   return (
-    <div classNameName="blog-details">
+    <div className="blog-details">
       {carregant && <div>Carregant dades...</div>}
       {error && <div>{error}</div>}
       {blog && (

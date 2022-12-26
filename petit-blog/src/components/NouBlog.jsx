@@ -27,7 +27,7 @@ const NouBlog = () => {
   };
 
   return (
-    <div classNameName="create">
+    <div className="create">
       <h2>Afegir un nou blog</h2>
       <form onSubmit={handleSubmit}>
         <label>Títol:</label>

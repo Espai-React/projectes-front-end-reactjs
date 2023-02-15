@@ -14,7 +14,6 @@ import {
 } from "react-icons/io5";
 import dayjs from "dayjs";
 import logoCoet from "../assets/coet.webp";
-import { ItemLlista } from "./ItemLlista";
 
 export const Detalls = () => {
   const { coetId } = useParams();
